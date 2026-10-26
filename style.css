@@ -148,3 +148,21 @@ html{background:var(--paper)}
 .page-inner{padding-top:clamp(24px,5vh,64px)}
 body::before{z-index:47}
 body::after{z-index:46;box-shadow:0 0 0 100vmax var(--paper)}
+/* v3: fit desktop frame without internal scroll; keep shadows inside frame on mobile */
+@media (min-width:1001px){
+  .home{margin-top:clamp(14px,2.4vh,30px)}
+  .page-inner{padding:clamp(14px,3vh,48px) 0 clamp(12px,2.4vh,36px)}
+  .head{font-size:clamp(48px,min(9vw,12vh),160px);margin-bottom:clamp(10px,1.8vh,24px)}
+  .lede{font-size:clamp(17px,min(1.5vw,2.6vh),28px);line-height:1.25;margin-bottom:clamp(14px,2.6vh,36px)}
+  .cards{margin-bottom:clamp(14px,2.8vh,44px)}
+  .card{padding:clamp(14px,2vh,22px) clamp(16px,1.4vw,22px) clamp(16px,2.4vh,28px)}
+  .card h3{font-size:clamp(22px,min(2vw,3.8vh),40px);margin:clamp(6px,1vh,10px) 0 clamp(6px,1.2vh,12px)}
+  .card p{font-size:clamp(15px,min(1.2vw,2.2vh),22px);line-height:1.25}
+  .page-folio{padding-bottom:clamp(10px,1.8vh,22px)}
+}
+@media (max-width:1000px){
+  :root{--gut:clamp(24px,5vw,96px)}
+  .card{box-shadow:4px 3px 0 var(--mis)}
+  .card:hover{box-shadow:5px 4px 0 var(--mis)}
+  .yt-btn:hover,.yt-btn:focus-visible,.home:hover,.home:focus-visible{box-shadow:3px 3px 0 var(--mis)}
+}
