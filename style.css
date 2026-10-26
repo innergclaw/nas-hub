@@ -146,3 +146,5 @@ html{background:var(--paper)}
 .home{margin-left:8px}
 .head{font-size:clamp(52px,min(10vw,15vh),170px);margin-left:-.02em}
 .page-inner{padding-top:clamp(24px,5vh,64px)}
+body::before{z-index:47}
+body::after{z-index:46;box-shadow:0 0 0 100vmax var(--paper)}
