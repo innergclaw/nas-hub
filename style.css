@@ -243,3 +243,5 @@ body.spazz .corner{color:var(--red)}
 body.spazz .soc{animation:shake .12s steps(2) infinite}
 @media (max-width:480px){.soc{font-size:11px;letter-spacing:2px;padding:6px 9px 5px}}
 @media (prefers-reduced-motion:reduce){.soc{rotate:0deg}}
+body:not(.portrait) .socials{position:fixed;top:clamp(10px,1.8vh,18px);right:clamp(14px,1.6vw,24px);z-index:2}
+body:not(.portrait) .socials ul{margin:0;justify-content:flex-end}
