@@ -158,6 +158,8 @@
   // skill + method cards sit slightly crooked, like stickers
   [].forEach.call(document.querySelectorAll('.card'),function(c){c.style.setProperty('--tilt',rnd(1.2)+'deg')});
   // spazz mode: long-press NAS, or type "spazz"
+  // once the intro has played, drop the loading state so later effects don't replay it
+  setTimeout(function(){var h=document.getElementById('hub');h&&h.classList.remove('loading')},3500);
   var spazzing=false;
   function spazz(){if(spazzing)return;spazzing=true;body.classList.add('spazz');buzz([30,40,30,40,30,40,90]);
     setTimeout(function(){body.classList.remove('spazz');spazzing=false},2200)}
