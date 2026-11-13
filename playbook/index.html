@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Local Business TikTok Autopilot Playbook · InnerG Intel</title>
+<meta name="description" content="Schedule your business's TikToks by sending one message to Claude. A step-by-step playbook with copy-paste prompts and caption templates for local businesses. $19, instant download.">
+<meta property="og:title" content="The Local Business TikTok Autopilot Playbook">
+<meta property="og:description" content="Post on TikTok without opening TikTok. Setup in about 20 minutes on free plans. $19 instant download.">
+<meta property="og:image" content="assets/preview.jpg">
+<meta property="og:type" content="product">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><circle cx='32' cy='32' r='30' fill='%231E1414'/><text x='32' y='42' font-size='28' text-anchor='middle' fill='%23F3EBDD' font-family='Georgia' font-weight='700'>IG</text></svg>">
+<style>
+  @font-face { font-family: "Abril"; src: url("fonts/AbrilFatface-Regular.ttf") format("truetype"); font-display: swap; }
+  @font-face { font-family: "Slab"; src: url("fonts/AlfaSlabOne-Regular.ttf") format("truetype"); font-display: swap; }
+  @font-face { font-family: "Type"; src: url("fonts/SpecialElite-Regular.ttf") format("truetype"); font-display: swap; }
+  :root { --paper:#F3EBDD; --ink:#1E1414; --red:#9E2B25; --muted:#5a4b45; --line:rgba(30,20,20,.18); }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0; color: var(--ink); background: var(--paper);
+    font: 18px/1.6 "Type", "Courier New", monospace;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.12 0 0 0 0 0.08 0 0 0 0 0.08 0 0 0 .09 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    padding-bottom: 56px;
+  }
+  a { color: inherit; }
+  .wrap { max-width: 1120px; margin: 0 auto; padding: 0 24px; }
+  .top { border-bottom: 3px double var(--ink); }
+  .top .wrap { display: flex; justify-content: space-between; align-items: center; height: 60px; font-family: "Slab"; font-size: 14px; letter-spacing: .08em; }
+  h1, h2, h3 { font-family: "Abril", Georgia, serif; font-weight: 400; line-height: 1.02; margin: 0; letter-spacing: .005em; }
+  .red { color: var(--red); }
+  .kicker { font-family: "Slab"; font-size: 14px; letter-spacing: .14em; text-transform: uppercase; display: inline-block; border: 2px solid var(--ink); padding: 4px 10px; }
+
+  /* hero */
+  .hero { padding: 56px 0 40px; }
+  .hero .wrap { display: grid; grid-template-columns: 1.15fr .85fr; gap: 56px; align-items: center; }
+  .hero h1 { font-size: clamp(46px, 6.4vw, 86px); text-transform: uppercase; margin: 18px 0 20px; }
+  .hero p.sub { font-size: 20px; max-width: 34ch; margin: 0 0 28px; }
+  .buyrow { display: flex; align-items: center; gap: 22px; flex-wrap: wrap; }
+  .price { font-family: "Abril"; font-size: 56px; line-height: 1; }
+  .price small { font-family: "Type"; font-size: 15px; display: block; color: var(--muted); }
+  .btn {
+    font-family: "Slab"; font-size: 20px; letter-spacing: .04em; text-transform: uppercase; text-decoration: none;
+    background: var(--red); color: var(--paper); padding: 18px 30px; border: 3px solid var(--ink);
+    box-shadow: 6px 6px 0 var(--ink); transition: transform .12s, box-shadow .12s; display: inline-block;
+  }
+  .btn:hover { transform: translate(-2px,-2px); box-shadow: 8px 8px 0 var(--ink); }
+  .btn:active { transform: translate(4px,4px); box-shadow: 2px 2px 0 var(--ink); }
+  .fine { font-size: 15px; color: var(--muted); margin-top: 16px; }
+
+  .phone { position: relative; justify-self: center; width: min(360px, 82vw); aspect-ratio: 9/16; border: 4px solid var(--ink);
+           border-radius: 34px; padding: 10px; background: var(--ink); box-shadow: 14px 14px 0 rgba(30,20,20,.18); transform: rotate(2deg); }
+  .phone video { width: 100%; height: 100%; object-fit: cover; border-radius: 24px; display: block; background: var(--paper); }
+  .sound { position: absolute; top: -18px; left: 50%; transform: translateX(-50%); font-family: "Slab"; font-size: 14px; letter-spacing: .06em;
+           background: var(--paper); color: var(--ink); border: 2px solid var(--ink); padding: 8px 14px; cursor: pointer; white-space: nowrap; }
+
+  /* sections */
+  section { padding: 64px 0; border-top: 2px solid var(--ink); }
+  section h2 { font-size: clamp(36px, 4.6vw, 58px); text-transform: uppercase; margin-bottom: 28px; }
+  .grid4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+  .card { border: 3px solid var(--ink); padding: 22px; background: rgba(255,255,255,.25); }
+  .card h3 { font-family: "Slab"; font-size: 20px; text-transform: uppercase; margin-bottom: 10px; line-height: 1.2; }
+  .card p { margin: 0; font-size: 16px; }
+  .num { font-family: "Abril"; font-size: 44px; color: var(--red); line-height: 1; display: block; margin-bottom: 8px; }
+
+  .peek { display: grid; grid-template-columns: .9fr 1.1fr; gap: 48px; align-items: center; }
+  .peek img { width: 100%; height: auto; border: 3px solid var(--ink); box-shadow: 10px 10px 0 rgba(30,20,20,.18); }
+  ul.ticks { list-style: none; padding: 0; margin: 0; }
+  ul.ticks li { padding: 12px 0 12px 44px; position: relative; border-bottom: 1px dashed var(--line); }
+  ul.ticks li::before { content: ""; position: absolute; left: 0; top: 14px; width: 24px; height: 24px; border: 3px solid var(--ink); }
+  ul.ticks li::after { content: ""; position: absolute; left: 7px; top: 15px; width: 9px; height: 16px; border: solid var(--red); border-width: 0 4px 4px 0; transform: rotate(40deg); }
+  ul.ticks b { font-family: "Slab"; font-weight: 400; letter-spacing: .02em; }
+
+  .steps { counter-reset: s; display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; border: 3px solid var(--ink); }
+  .steps div { padding: 24px; border-right: 2px solid var(--ink); }
+  .steps div:last-child { border-right: 0; }
+  .steps div::before { counter-increment: s; content: "0" counter(s); font-family: "Abril"; font-size: 40px; color: var(--red); display: block; }
+  .steps b { font-family: "Slab"; font-weight: 400; text-transform: uppercase; display: block; margin: 6px 0; }
+
+  .for { display: flex; flex-wrap: wrap; gap: 12px; }
+  .for span { font-family: "Slab"; text-transform: uppercase; letter-spacing: .04em; padding: 10px 16px; border: 3px solid var(--ink); }
+  .for span:nth-child(odd) { background: var(--ink); color: var(--paper); }
+
+  details { border-bottom: 2px solid var(--ink); padding: 18px 0; }
+  details:first-of-type { border-top: 2px solid var(--ink); }
+  summary { font-family: "Slab"; font-size: 20px; cursor: pointer; list-style: none; display: flex; justify-content: space-between; gap: 16px; }
+  summary::after { content: "+"; font-family: "Abril"; font-size: 28px; line-height: 1; }
+  details[open] summary::after { content: "–"; }
+  details p { margin: 12px 0 0; max-width: 70ch; }
+
+  .final { text-align: center; }
+  .final h2 { margin-bottom: 16px; }
+  .final p { margin: 0 auto 28px; max-width: 46ch; }
+  footer { border-top: 3px double var(--ink); padding: 26px 0 30px; text-align: center; font-family: "Slab"; font-size: 13px; letter-spacing: .12em; }
+  footer small { display: block; font-family: "Type"; letter-spacing: 0; font-size: 13px; color: var(--muted); margin-top: 10px; }
+
+  .marquee { position: fixed; left: 0; right: 0; bottom: 0; height: 56px; background: var(--ink); color: var(--paper); overflow: hidden; z-index: 5; }
+  .marquee a { text-decoration: none; display: block; height: 100%; }
+  .track { display: inline-flex; white-space: nowrap; height: 100%; align-items: center; animation: run 26s linear infinite; font-family: "Slab"; font-size: 20px; letter-spacing: .05em; }
+  .track span { padding-right: 40px; }
+  @keyframes run { to { transform: translateX(-50%); } }
+  @media (prefers-reduced-motion: reduce) { .track { animation: none; } html { scroll-behavior: auto; } }
+
+  @media (max-width: 900px) {
+    .hero .wrap, .peek { grid-template-columns: 1fr; gap: 36px; }
+    .phone { order: -1; transform: none; }
+    .grid4 { grid-template-columns: 1fr 1fr; }
+    .steps { grid-template-columns: 1fr 1fr; }
+    .steps div:nth-child(2) { border-right: 0; }
+    .steps div:nth-child(-n+2) { border-bottom: 2px solid var(--ink); }
+  }
+  @media (max-width: 560px) {
+    body { font-size: 17px; }
+    .grid4, .steps { grid-template-columns: 1fr; }
+    .steps div { border-right: 0; border-bottom: 2px solid var(--ink); }
+    .steps div:last-child { border-bottom: 0; }
+    .top .wrap span:last-child { display: none; }
+  }
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap"><span>INNERG INTEL</span><span>LOCAL BUSINESS SERIES · 2026</span></div></header>
+
+<main>
+<div class="hero"><div class="wrap">
+  <div>
+    <span class="kicker">For local businesses</span>
+    <h1>Post on TikTok <span class="red">without</span> opening TikTok.</h1>
+    <p class="sub">Send Claude one message with your video, a time and a caption, and the post goes up on schedule. This playbook shows you the whole setup, step by step.</p>
+    <div class="buyrow">
+      <div class="price">$19<small>one-time · instant download</small></div>
+      <a class="btn buy" href="#buy">Get the playbook</a>
+    </div>
+    <p class="fine">PDF playbook + prompt pack + caption templates. Setup takes about 20 minutes on free plans.</p>
+  </div>
+  <div class="phone">
+    <video id="promo" src="assets/promo.mp4" poster="assets/poster.jpg" autoplay muted loop playsinline preload="metadata" aria-label="Promo video for the TikTok Autopilot Playbook"></video>
+    <button class="sound" id="sound" type="button">▶ TAP FOR SOUND</button>
+  </div>
+</div></div>
+
+<section><div class="wrap">
+  <h2>What you <span class="red">get</span></h2>
+  <div class="grid4">
+    <div class="card"><span class="num">01</span><h3>The playbook (PDF)</h3><p>Seven pages that take you from a blank account to a scheduled post: Metricool, TikTok, Claude, and how to link your video.</p></div>
+    <div class="card"><span class="num">02</span><h3>Prompt pack</h3><p>Six copy-paste prompts to schedule, reschedule, pick the best time, write captions and check your week.</p></div>
+    <div class="card"><span class="num">03</span><h3>Caption templates</h3><p>Seven fill-in-the-blank captions with calls to action written for shops, cafes, salons and trades. Opens in Sheets or Excel.</p></div>
+    <div class="card"><span class="num">04</span><h3>Fixes that work</h3><p>Every error I hit while building this workflow, with exactly what fixed it, so you can skip the headaches.</p></div>
+  </div>
+</div></section>
+
+<section><div class="wrap peek">
+  <img src="assets/preview.jpg" alt="Preview of the playbook pages, with the prompts and templates blurred" loading="lazy" width="1000" height="1000">
+  <div>
+    <h2>Take a <span class="red">peek</span></h2>
+    <ul class="ticks">
+      <li><b>Step-by-step setup:</b> Metricool free plan, TikTok connected, Claude connected.</li>
+      <li><b>The one catch:</b> how to give your video a link Metricool can read, using Google Drive or Dropbox.</li>
+      <li><b>A 30-minute weekly routine:</b> film on Monday, and your week of posts is handled.</li>
+      <li><b>Troubleshooting table:</b> the error messages you'll see, what they mean, and how to fix each one.</li>
+      <li><b>The fine print:</b> AI labels, plan limits, and how to keep control of your accounts.</li>
+    </ul>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <h2>How it <span class="red">works</span></h2>
+  <div class="steps">
+    <div><b>Record</b>Film a short vertical video of your business, like you already do.</div>
+    <div><b>Link it</b>Drop it in Google Drive or Dropbox and copy the share link.</div>
+    <div><b>Message Claude</b>Paste the link, the time and the caption into one prompt from the pack.</div>
+    <div><b>It posts</b>Metricool publishes it to TikTok at the time you picked. No login needed.</div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <h2>Built <span class="red">for</span></h2>
+  <div class="for"><span>Cafes</span><span>Barbershops</span><span>Salons</span><span>Gyms</span><span>Restaurants</span><span>Trades</span><span>Boutiques</span><span>Busy parents running a side business</span></div>
+</div></section>
+
+<section><div class="wrap">
+  <h2>Questions</h2>
+  <details><summary>Do I have to pay for other tools?</summary><p>No. You can start on free plans of Claude and Metricool. Metricool's free plan covers up to 20 scheduled posts a month, which is plenty for 3 to 5 posts a week. Plans change, so check each tool's pricing page.</p></details>
+  <details><summary>Do I need to be technical?</summary><p>No. If you can copy a share link and paste a message, you can do this. The setup is clicking through sign-ups and approving connections.</p></details>
+  <details><summary>Does it work for Instagram or YouTube too?</summary><p>The playbook is built around TikTok. Metricool also connects Instagram, Facebook and YouTube, and the same prompts work once you connect them.</p></details>
+  <details><summary>How do I get it after I pay?</summary><p>Checkout is through Stripe. When the payment goes through, you're taken straight to the download page. Save the zip file to your phone or computer.</p></details>
+  <details><summary>Questions before you buy?</summary><p>DM <b>@innergintel</b> on TikTok.</p></details>
+</div></section>
+
+<section class="final"><div class="wrap">
+  <h2>Run your <span class="red">business</span>,<br>not your phone.</h2>
+  <p>Set it up this week, and your posts start going out on time.</p>
+  <a class="btn buy" href="#buy">Get the playbook · $19</a>
+</div></section>
+</main>
+
+<footer>INNERG INTEL · LEARN THE SYSTEM. RECODE THE MIND. BUILD THE FUTURE.
+  <small>Not affiliated with TikTok, Metricool, Anthropic or Stripe. Product names belong to their owners.</small></footer>
+
+<div class="marquee"><a class="buy" href="#buy"><div class="track" aria-hidden="true">
+  <span>▶ GET THE TIKTOK AUTOPILOT PLAYBOOK · $19 •</span><span>▶ GET THE TIKTOK AUTOPILOT PLAYBOOK · $19 •</span><span>▶ GET THE TIKTOK AUTOPILOT PLAYBOOK · $19 •</span>
+  <span>▶ GET THE TIKTOK AUTOPILOT PLAYBOOK · $19 •</span><span>▶ GET THE TIKTOK AUTOPILOT PLAYBOOK · $19 •</span><span>▶ GET THE TIKTOK AUTOPILOT PLAYBOOK · $19 •</span>
+</div></a></div>
+
+<script>
+  // ONE place to set the Stripe Payment Link:
+  const STRIPE_LINK = "STRIPE_PAYMENT_LINK";
+  if (STRIPE_LINK.startsWith("https://")) document.querySelectorAll("a.buy").forEach(a => a.href = STRIPE_LINK);
+
+  const v = document.getElementById("promo"), b = document.getElementById("sound");
+  b.addEventListener("click", () => {
+    v.muted = !v.muted;
+    if (!v.muted) { v.currentTime = 0; v.play(); }
+    b.textContent = v.muted ? "▶ TAP FOR SOUND" : "■ MUTE";
+  });
+</script>
+</body>
+</html>
