@@ -133,7 +133,12 @@
       <div class="price">$9<small>one-time · instant download</small></div>
       <a class="btn buy" href="https://buy.stripe.com/9B68wRckvbOxaho8hZao81Y">Get the playbook</a>
     </div>
-    <p class="fine">PDF playbook + prompt pack + caption templates. Setup takes about 25 minutes, and it works on Claude's free plan.</p>
+    <p class="fine">PDF playbook + prompt pack + caption templates + a Claude skill. Setup takes about 25 minutes, and it works on Claude's free plan.</p>
+    <div class="agent" style="margin-top:22px;border:2px dashed var(--ink);padding:14px 16px;max-width:560px">
+      <p class="fine" style="margin:0 0 8px"><b>Using Claude or another agent?</b> Copy this and paste it in. Your agent brings you to checkout, then installs the skill with you.</p>
+      <pre id="agentcode" style="white-space:pre-wrap;overflow-wrap:anywhere;margin:0 0 10px;font-size:14px">I want the InnerG Instagram Autopilot Playbook and Claude skill ($9). Open https://innergclaw.github.io/nas-hub/instagram-playbook/ and take me to checkout. After I pay, help me install the skill from my download page and connect Metricool so you can schedule my Instagram posts.</pre>
+      <button type="button" class="btn" style="font-size:15px;padding:10px 18px" onclick="navigator.clipboard.writeText(document.getElementById('agentcode').textContent).then(()=>{this.textContent='Copied ✓'})">Copy for your agent</button>
+    </div>
   </div>
   <div class="phone">
     <img src="assets/poster.jpg" alt="The Instagram Autopilot Playbook: Reels, posts, carousels and Stories" width="1080" height="1920">

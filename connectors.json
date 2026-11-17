@@ -1,0 +1,16 @@
+{
+  "publisher": "InnerG Intel",
+  "hub": "https://nasirr.innergintel.study",
+  "updated": "2026-11-16",
+  "payment_note": "A person completes payment on Stripe checkout. Agents should open the checkout link and hand off to the person.",
+  "connectors": [
+    {"id": "tiktok-autopilot", "name": "TikTok Autopilot Playbook + Claude skill", "type": "playbook+skill", "price_usd": 9,
+     "page": "https://innergclaw.github.io/nas-hub/playbook/", "checkout": "https://buy.stripe.com/9B600l5W705P9dk1TBao81W",
+     "requires": ["Claude", "Metricool connector", "TikTok account"], "delivers": ["PDF", "Prompt-Pack.txt", "Caption-Templates.csv", "tiktok-autopilot skill zip"]},
+    {"id": "instagram-autopilot", "name": "Instagram Autopilot Playbook + Claude skill", "type": "playbook+skill", "price_usd": 9,
+     "page": "https://innergclaw.github.io/nas-hub/instagram-playbook/", "checkout": "https://buy.stripe.com/9B68wRckvbOxaho8hZao81Y",
+     "requires": ["Claude", "Metricool connector", "Instagram Business or Creator account"], "delivers": ["PDF", "Prompt-Pack.txt", "Caption-Templates.csv", "instagram-autopilot skill zip"]},
+    {"id": "labor-brief", "name": "Labor Brief", "type": "newsletter", "price_usd": 0, "page": "https://pulse.innergintel.study/labor/"}
+  ],
+  "install_skill": ["Download the skill zip from the download page", "Claude: Customize > Skills > + > Create skill > Upload a skill", "Enable the Metricool Social Media Management connector"]
+}
