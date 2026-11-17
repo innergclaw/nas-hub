@@ -36,22 +36,30 @@
       <li>The-Local-Business-TikTok-Autopilot-Playbook.pdf</li>
       <li>Prompt-Pack.txt: every copy-paste prompt</li>
       <li>Caption-Templates.csv: opens in Sheets or Excel</li>
-      <li>Plus a Claude skill (below)</li>
+      <li>Plus an agent skill for Claude, Grok or ChatGPT (below)</li>
     </ul>
   </div>
   <div class="box">
-    <h2>Bonus: the Claude skill</h2>
+    <h2>Bonus: the agent skill</h2>
     <p>Install this once and your Claude already knows the whole workflow. Just say what to post and when.</p>
-    <a class="btn" href="https://drive.google.com/uc?export=download&id=1lfCXK3W6KqbTk7x9zw4X9fF8N1USEemn">Download the skill (.zip)</a>
+    <a class="btn" href="https://drive.google.com/uc?export=download&id=1AWJAfXYijYE8_px-eARoaNykGDnmT1nw">Download the skill (.zip)</a>
     <ol>
       <li>In Claude, open <b>Customize → Skills</b>.</li>
       <li>Click <b>+</b>, then <b>Create skill → Upload a skill</b>, and choose <b>tiktok-autopilot.zip</b>. Don't unzip it.</li>
       <li>Make sure the Metricool connector is on (Step 2 or 3 in the PDF).</li>
     </ol>
     <p class="fine">Don't see Skills? Turn on code execution in Claude's Settings → Capabilities first.</p>
+    <h2 style="margin-top:18px">Using Grok, ChatGPT or another agent?</h2>
+    <p>The same zip works there too. Open <b>ANY-AGENT-INSTRUCTIONS.md</b> inside it:</p>
+    <ol>
+      <li>Add the Metricool connector to your agent with this URL: <b>https://ai.metricool.com/mcp</b>. In Grok: grok.com/connectors → New Connector → Custom (paid Grok plans).</li>
+      <li>Paste the instructions into your agent's custom instructions, or at the start of a chat.</li>
+      <li>Test it: "List my Metricool brands and which networks are connected."</li>
+    </ol>
+    <p class="fine">ChatGPT: Metricool says its full feature set over a manual connection needs a paid Metricool account.</p>
     <h2 style="margin-top:18px">Or let your agent do it</h2>
-    <p class="fine">Copy this and paste it to Claude:</p>
-    <pre id="agentcode" style="white-space:pre-wrap;overflow-wrap:anywhere;background:#fff8ec;border:2px dashed var(--ink);padding:12px;font-size:14px;margin:0">I just bought the InnerG TikTok Autopilot skill. Help me install it in Claude: the file is tiktok-autopilot.zip from my download page (https://drive.google.com/uc?export=download&id=1lfCXK3W6KqbTk7x9zw4X9fF8N1USEemn). Walk me through Customize, then Skills, then Upload a skill, and check that the Metricool connector is on. Then help me schedule my first TikTok.</pre>
+    <p class="fine">Copy this and paste it to your agent:</p>
+    <pre id="agentcode" style="white-space:pre-wrap;overflow-wrap:anywhere;background:#fff8ec;border:2px dashed var(--ink);padding:12px;font-size:14px;margin:0">I just bought the InnerG TikTok Autopilot skill. Help me install it in my agent (Claude, Grok or ChatGPT): the file is tiktok-autopilot.zip from my download page (https://drive.google.com/uc?export=download&id=1AWJAfXYijYE8_px-eARoaNykGDnmT1nw). If you're Claude, walk me through Customize, then Skills, then Upload a skill. Otherwise, help me add the Metricool connector (https://ai.metricool.com/mcp) and use ANY-AGENT-INSTRUCTIONS.md from the zip as your instructions. Then help me schedule my first TikTok.</pre>
     <button type="button" class="btn" style="font-size:15px;padding:10px 18px" onclick="navigator.clipboard.writeText(document.getElementById('agentcode').textContent).then(()=>{this.textContent='Copied ✓'})">Copy for your agent</button>
   </div>
   <div class="box">

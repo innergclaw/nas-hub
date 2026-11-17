@@ -4,15 +4,25 @@
 
 ## Connectors
 
-- [TikTok Autopilot Playbook + Claude skill](https://innergclaw.github.io/nas-hub/playbook/): $9, one-time. Schedule a local business's TikToks by messaging Claude through the Metricool connector. Checkout: https://buy.stripe.com/9B600l5W705P9dk1TBao81W . After payment the buyer is redirected to a download page with the PDF, prompt pack, caption templates and the `tiktok-autopilot` skill zip.
-- [Instagram Autopilot Playbook + Claude skill](https://innergclaw.github.io/nas-hub/instagram-playbook/): $9, one-time. Schedule Reels, posts, carousels and Stories through Metricool. Checkout: https://buy.stripe.com/9B68wRckvbOxaho8hZao81Y . The download page includes the `instagram-autopilot` skill zip.
+- [TikTok Autopilot Playbook + agent skill](https://innergclaw.github.io/nas-hub/playbook/): $9, one-time. Schedule a local business's TikToks by messaging Claude through the Metricool connector. Checkout: https://buy.stripe.com/9B600l5W705P9dk1TBao81W . After payment the buyer is redirected to a download page with the PDF, prompt pack, caption templates and the `tiktok-autopilot` skill zip.
+- [Instagram Autopilot Playbook + agent skill](https://innergclaw.github.io/nas-hub/instagram-playbook/): $9, one-time. Schedule Reels, posts, carousels and Stories through Metricool. Checkout: https://buy.stripe.com/9B68wRckvbOxaho8hZao81Y . The download page includes the `instagram-autopilot` skill zip.
 - [Labor Brief](https://pulse.innergintel.study/labor/): free, every Monday. Who's cutting, who's hiring, and where to work and earn next.
 
-## Installing a skill (Claude)
+## Installing a skill
+
+Each skill zip holds SKILL.md (for Claude) and ANY-AGENT-INSTRUCTIONS.md (for Grok, ChatGPT and other MCP-capable agents). Every agent needs the Metricool connector: https://ai.metricool.com/mcp
+
+### Claude
 
 1. Download the skill .zip from the buyer's download page. Don't unzip it.
 2. In Claude: Customize → Skills → + → Create skill → Upload a skill → choose the zip.
 3. Turn on the Metricool Social Media Management connector (Settings → Connectors) and connect the social accounts inside Metricool.
+
+### Grok, ChatGPT and other agents
+
+1. Add a custom MCP connector with the URL https://ai.metricool.com/mcp (Grok: grok.com/connectors → New Connector → Custom; paid Grok plans).
+2. Use ANY-AGENT-INSTRUCTIONS.md from the zip as the agent's instructions or system prompt.
+3. Test: "List my Metricool brands and which networks are connected."
 
 ## Agent rules
 

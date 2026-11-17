@@ -4,13 +4,68 @@
   "updated": "2026-11-16",
   "payment_note": "A person completes payment on Stripe checkout. Agents should open the checkout link and hand off to the person.",
   "connectors": [
-    {"id": "tiktok-autopilot", "name": "TikTok Autopilot Playbook + Claude skill", "type": "playbook+skill", "price_usd": 9,
-     "page": "https://innergclaw.github.io/nas-hub/playbook/", "checkout": "https://buy.stripe.com/9B600l5W705P9dk1TBao81W",
-     "requires": ["Claude", "Metricool connector", "TikTok account"], "delivers": ["PDF", "Prompt-Pack.txt", "Caption-Templates.csv", "tiktok-autopilot skill zip"]},
-    {"id": "instagram-autopilot", "name": "Instagram Autopilot Playbook + Claude skill", "type": "playbook+skill", "price_usd": 9,
-     "page": "https://innergclaw.github.io/nas-hub/instagram-playbook/", "checkout": "https://buy.stripe.com/9B68wRckvbOxaho8hZao81Y",
-     "requires": ["Claude", "Metricool connector", "Instagram Business or Creator account"], "delivers": ["PDF", "Prompt-Pack.txt", "Caption-Templates.csv", "instagram-autopilot skill zip"]},
-    {"id": "labor-brief", "name": "Labor Brief", "type": "newsletter", "price_usd": 0, "page": "https://pulse.innergintel.study/labor/"}
+    {
+      "id": "tiktok-autopilot",
+      "name": "TikTok Autopilot Playbook + agent skill",
+      "type": "playbook+skill",
+      "price_usd": 9,
+      "page": "https://innergclaw.github.io/nas-hub/playbook/",
+      "checkout": "https://buy.stripe.com/9B600l5W705P9dk1TBao81W",
+      "requires": [
+        "Claude, Grok, ChatGPT or another MCP-capable agent",
+        "Metricool connector",
+        "TikTok account"
+      ],
+      "delivers": [
+        "PDF",
+        "Prompt-Pack.txt",
+        "Caption-Templates.csv",
+        "tiktok-autopilot skill zip (SKILL.md + ANY-AGENT-INSTRUCTIONS.md)"
+      ]
+    },
+    {
+      "id": "instagram-autopilot",
+      "name": "Instagram Autopilot Playbook + agent skill",
+      "type": "playbook+skill",
+      "price_usd": 9,
+      "page": "https://innergclaw.github.io/nas-hub/instagram-playbook/",
+      "checkout": "https://buy.stripe.com/9B68wRckvbOxaho8hZao81Y",
+      "requires": [
+        "Claude, Grok, ChatGPT or another MCP-capable agent",
+        "Metricool connector",
+        "Instagram Business or Creator account"
+      ],
+      "delivers": [
+        "PDF",
+        "Prompt-Pack.txt",
+        "Caption-Templates.csv",
+        "instagram-autopilot skill zip (SKILL.md + ANY-AGENT-INSTRUCTIONS.md)"
+      ]
+    },
+    {
+      "id": "labor-brief",
+      "name": "Labor Brief",
+      "type": "newsletter",
+      "price_usd": 0,
+      "page": "https://pulse.innergintel.study/labor/"
+    }
   ],
-  "install_skill": ["Download the skill zip from the download page", "Claude: Customize > Skills > + > Create skill > Upload a skill", "Enable the Metricool Social Media Management connector"]
+  "install_skill": {
+    "claude": [
+      "Download the skill zip",
+      "Customize > Skills > + > Create skill > Upload a skill",
+      "Enable the Metricool connector"
+    ],
+    "other_agents": [
+      "Add custom MCP connector https://ai.metricool.com/mcp",
+      "Use ANY-AGENT-INSTRUCTIONS.md as instructions/system prompt"
+    ]
+  },
+  "agents_supported": [
+    "Claude (skill upload)",
+    "Grok (custom MCP connector + instructions)",
+    "ChatGPT (MCP connector + instructions)",
+    "any MCP-capable agent"
+  ],
+  "mcp_server": "https://ai.metricool.com/mcp"
 }
