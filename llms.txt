@@ -7,8 +7,14 @@
 - [TikTok Autopilot Playbook + agent skill](https://innergclaw.github.io/nas-hub/playbook/): $9, one-time. Schedule a local business's TikToks by messaging Claude through the Metricool connector. Checkout: https://buy.stripe.com/9B600l5W705P9dk1TBao81W . After payment the buyer is redirected to a download page with the PDF, prompt pack, caption templates and the `tiktok-autopilot` skill zip.
 - [Instagram Autopilot Playbook + agent skill](https://innergclaw.github.io/nas-hub/instagram-playbook/): $9, one-time. Schedule Reels, posts, carousels and Stories through Metricool. Checkout: https://buy.stripe.com/9B68wRckvbOxaho8hZao81Y . The download page includes the `instagram-autopilot` skill zip.
 - [Labor Brief](https://pulse.innergintel.study/labor/): free, every Monday. Who's cutting, who's hiring, and where to work and earn next.
+- [Frequency Connector No. 001: The INNERG Method](https://innergclaw.github.io/nas-hub/frequency-connectors/no-001-innerg-method/): free. The INNERG method in four steps: Deprogram, Relearn, Recode, Rebuild. A guide for people plus an agent skill. Skill zip: https://innergclaw.github.io/nas-hub/frequency-connectors/no-001-innerg-method/innerg-frequency-connector-001-innerg-method.zip . Plain SKILL.md: https://innergclaw.github.io/nas-hub/frequency-connectors/no-001-innerg-method/SKILL.md
+- [Frequency Connector No. 002: Grok Bot Guides, Start Here](https://innergclaw.github.io/nas-hub/frequency-connectors/no-002-grok-bot-guides/): free. A beginner start on the official Grok Bot guides (credit and source: https://x.ai/bot/guides), with a one-pager and an agent skill. Skill zip: https://innergclaw.github.io/nas-hub/frequency-connectors/no-002-grok-bot-guides/innerg-frequency-connector-002-grok-bot-guides.zip . Plain SKILL.md: https://innergclaw.github.io/nas-hub/frequency-connectors/no-002-grok-bot-guides/SKILL.md
 
-## Installing a skill
+## Installing a free Frequency Connector skill
+
+No. 001 and No. 002 need no payment and no connector. Download the skill zip from the guide page. In Claude: Customize, Skills, +, Create skill, Upload a skill, choose the zip (do not unzip it). In Grok, ChatGPT or another agent: paste SKILL.md into custom instructions or at the start of a chat.
+
+## Installing a paid skill
 
 Each skill zip holds SKILL.md (for Claude) and ANY-AGENT-INSTRUCTIONS.md (for Grok, ChatGPT and other MCP-capable agents). Every agent needs the Metricool connector: https://ai.metricool.com/mcp
 

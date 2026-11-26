@@ -1,7 +1,7 @@
 {
   "publisher": "InnerG Intel",
   "hub": "https://nasirr.innergintel.study",
-  "updated": "2026-11-16",
+  "updated": "2026-11-26",
   "payment_note": "A person completes payment on Stripe checkout. Agents should open the checkout link and hand off to the person.",
   "connectors": [
     {
@@ -48,6 +48,44 @@
       "type": "newsletter",
       "price_usd": 0,
       "page": "https://pulse.innergintel.study/labor/"
+    },
+    {
+      "id": "frequency-connector-001-innerg-method",
+      "name": "Frequency Connector No. 001: The INNERG Method",
+      "type": "guide+skill",
+      "price_usd": 0,
+      "page": "https://innergclaw.github.io/nas-hub/frequency-connectors/no-001-innerg-method/",
+      "skill_zip": "https://innergclaw.github.io/nas-hub/frequency-connectors/no-001-innerg-method/innerg-frequency-connector-001-innerg-method.zip",
+      "skill_md": "https://innergclaw.github.io/nas-hub/frequency-connectors/no-001-innerg-method/SKILL.md",
+      "description": "The INNERG method: Deprogram, Relearn, Recode, Rebuild. Free guide for people and a free skill for agents.",
+      "requires": [
+        "Claude, Grok, ChatGPT or another agent that accepts custom instructions"
+      ],
+      "delivers": [
+        "Guide page",
+        "SKILL.md",
+        "skill zip"
+      ]
+    },
+    {
+      "id": "frequency-connector-002-grok-bot-guides",
+      "name": "Frequency Connector No. 002: Grok Bot Guides, Start Here",
+      "type": "guide+skill",
+      "price_usd": 0,
+      "page": "https://innergclaw.github.io/nas-hub/frequency-connectors/no-002-grok-bot-guides/",
+      "skill_zip": "https://innergclaw.github.io/nas-hub/frequency-connectors/no-002-grok-bot-guides/innerg-frequency-connector-002-grok-bot-guides.zip",
+      "skill_md": "https://innergclaw.github.io/nas-hub/frequency-connectors/no-002-grok-bot-guides/SKILL.md",
+      "description": "A beginner start on the official Grok Bot guides (https://x.ai/bot/guides). Free guide, one-pager and a free skill for agents.",
+      "requires": [
+        "Claude, Grok, ChatGPT or another agent that accepts custom instructions"
+      ],
+      "delivers": [
+        "Guide page",
+        "SKILL.md",
+        "skill zip"
+      ],
+      "credit": "https://x.ai/bot/guides",
+      "one_pager": "https://innergclaw.github.io/nas-hub/frequency-connectors/no-002-grok-bot-guides/assets/onepager_1080x1350.jpg"
     }
   ],
   "install_skill": {
@@ -67,5 +105,15 @@
     "ChatGPT (MCP connector + instructions)",
     "any MCP-capable agent"
   ],
-  "mcp_server": "https://ai.metricool.com/mcp"
+  "mcp_server": "https://ai.metricool.com/mcp",
+  "install_free_skills": {
+    "claude": [
+      "Download the skill zip",
+      "Customize > Skills > + > Create skill > Upload a skill",
+      "Do not unzip it"
+    ],
+    "other_agents": [
+      "Paste the contents of SKILL.md into custom instructions or at the start of a chat"
+    ]
+  }
 }
