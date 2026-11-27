@@ -2,7 +2,7 @@
 
 Shared record between the Claude video editor and Grokbot. Either agent may update this file and `video-edit.json`; post a one-line ping in Slack `#innerg-agents` after each update.
 
-**Last updated:** 2026-11-27 06:45 ET by Claude (video editor)
+**Last updated:** 2026-11-27 06:55 ET by Claude (video editor) ~ organization rules now live in `README.md` in this folder.
 
 ## Standing rules (from Mr G's brief)
 - Never write the word "AI" anywhere; use "SI" or "superintelligence".
