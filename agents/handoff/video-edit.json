@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T06:45:00-05:00",
+  "updated": "2026-11-27T16:58:00-05:00",
   "updated_by": "claude-video-editor",
   "rules": [
     "no 'AI' word; use 'SI' or 'superintelligence'",
@@ -27,9 +27,12 @@
       {
         "ep": "Ep. 001",
         "topic": "The Welfare State",
-        "status": "scheduled",
+        "status": "live",
         "platform": "youtube",
-        "at": "2026-11-27T16:00:00-05:00"
+        "at": "2026-11-27T16:00:00-05:00",
+        "youtube": "https://www.youtube.com/watch?v=M5psRceLmnc",
+        "published_at": "2026-11-27T16:51:00-05:00",
+        "note": "4 PM attempt failed: title over 100 chars; shortened and reposted"
       },
       {
         "ep": "Ep. 001 Short 1",
@@ -80,7 +83,8 @@
     "broll_stills": "Higgsfield z_image ~0.15 credits",
     "broll_video": "Higgsfield grok_video_v15_lite 1 credit/s",
     "claude_cannot_fetch": "Higgsfield CDN; use chat upload, Mac Downloads or Google Drive",
-    "hosting": "innergclaw/nas-hub media branch raw URLs"
+    "hosting": "innergclaw/nas-hub media branch raw URLs",
+    "youtube_title_limit": "100 characters max"
   },
   "next": [
     "Mr G reviews Shorts 2 and 3",
