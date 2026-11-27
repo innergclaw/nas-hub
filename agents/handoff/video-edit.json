@@ -1,0 +1,91 @@
+{
+  "updated": "2026-11-27T06:45:00-05:00",
+  "updated_by": "claude-video-editor",
+  "rules": [
+    "no 'AI' word; use 'SI' or 'superintelligence'",
+    "no em dashes; use '~'",
+    "captions word for word",
+    "edit plan first, wait for yes",
+    "nothing goes live without Mr G's yes",
+    "blur private info",
+    "never touch originals",
+    "Style A: #F3EBDD #1E1414 #9E2B25, one red word per graphic"
+  ],
+  "series": {
+    "me_and_my_agent_wednesday": [
+      {
+        "ep": "EP.002",
+        "topic": "Delete old chats",
+        "status": "live",
+        "youtube": "https://www.youtube.com/watch?v=lmHoOtylWvo",
+        "short": "https://www.youtube.com/shorts/k1HeyhAfRgE",
+        "tiktok": "https://www.tiktok.com/@innergintel/video/7712542796183325965",
+        "open": "tags/hashtags contain 'AI'; corrected metadata given to Mr G for manual paste"
+      }
+    ],
+    "financial_frequency_friday": [
+      {
+        "ep": "Ep. 001",
+        "topic": "The Welfare State",
+        "status": "scheduled",
+        "platform": "youtube",
+        "at": "2026-11-27T16:00:00-05:00"
+      },
+      {
+        "ep": "Ep. 001 Short 1",
+        "topic": "Will it be there for you?",
+        "status": "scheduled",
+        "platform": "youtube_short",
+        "at": "2026-11-28T10:00:00-05:00"
+      },
+      {
+        "ep": "Ep. 001 Short 2",
+        "topic": "Why can't they touch it?",
+        "status": "scheduled",
+        "platform": "youtube_short",
+        "at": "2026-11-29T10:00:00-05:00"
+      },
+      {
+        "ep": "Ep. 001 Short 3",
+        "topic": "Don't build your house on it",
+        "status": "scheduled",
+        "platform": "youtube_short",
+        "at": "2026-11-30T10:00:00-05:00"
+      }
+    ]
+  },
+  "source_check": {
+    "ok": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "fix": {
+      "3": "link is Intellectuals and Society, not Knowledge and Decisions",
+      "4": "re-upload; credit Hoover original",
+      "5": "needs Applied Economics source",
+      "11": "needs Sowell's own story source"
+    }
+  },
+  "workflow": {
+    "broll_stills": "Higgsfield z_image ~0.15 credits",
+    "broll_video": "Higgsfield grok_video_v15_lite 1 credit/s",
+    "claude_cannot_fetch": "Higgsfield CDN; use chat upload, Mac Downloads or Google Drive",
+    "hosting": "innergclaw/nas-hub media branch raw URLs"
+  },
+  "next": [
+    "Mr G reviews Shorts 2 and 3",
+    "FFF Ep. 002 sources + recordings",
+    "replace sources for Ep 5 and Ep 11",
+    "remove hosted Ep. 001 files from public media branch after posting"
+  ]
+}
