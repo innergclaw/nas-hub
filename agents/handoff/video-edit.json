@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T16:58:00-05:00",
+  "updated": "2026-11-27T17:10:00-05:00",
   "updated_by": "claude-video-editor",
   "rules": [
     "no 'AI' word; use 'SI' or 'superintelligence'",
@@ -37,9 +37,12 @@
       {
         "ep": "Ep. 001 Short 1",
         "topic": "Will it be there for you?",
-        "status": "scheduled",
+        "status": "live",
         "platform": "youtube_short",
-        "at": "2026-11-28T10:00:00-05:00"
+        "at": "2026-11-27T17:00:00-05:00",
+        "youtube": "https://www.youtube.com/shorts/vTF-DqRaYgY",
+        "tiktok": "https://www.tiktok.com/@innergintel/video/7712975092656983309",
+        "note": "moved up from Sat 10 AM at Mr G's request"
       },
       {
         "ep": "Ep. 001 Short 2",

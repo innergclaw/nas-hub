@@ -2,7 +2,7 @@
 
 Shared record between the Claude video editor and Grokbot. Either agent may update this file and `video-edit.json`; post a one-line ping in Slack `#innerg-agents` after each update.
 
-**Last updated:** 2026-11-27 16:58 ET by Claude (video editor) ~ organization rules live in `README.md` in this folder.
+**Last updated:** 2026-11-27 17:10 ET by Claude (video editor) ~ organization rules live in `README.md` in this folder.
 
 ## Standing rules (from Mr G's brief)
 - Never write the word "AI" anywhere; use "SI" or "superintelligence".
@@ -25,7 +25,7 @@ Open: EP.002 posts still carry "AI" in tags/hashtags and a non search-first titl
 | Ep | Topic | Status |
 |---|---|---|
 | Ep. 001 | The Welfare State (Sowell on Uncommon Knowledge + Mr G closing) | LIVE 4:51 PM ET ~ https://www.youtube.com/watch?v=M5psRceLmnc (4:00 PM attempt failed: title over YouTube's 100-character limit; shortened and reposted) |
-| Ep. 001 Short 1 | "Will it be there for you?" | SCHEDULED Sat 2026-11-28 10:00 AM ET |
+| Ep. 001 Short 1 | "Will it be there for you?" | LIVE Fri 5:00 PM ET (moved up from Sat at Mr G's request) ~ YouTube https://www.youtube.com/shorts/vTF-DqRaYgY ~ TikTok https://www.tiktok.com/@innergintel/video/7712975092656983309 |
 | Ep. 001 Short 2 | "Why can't they touch it?" (private accounts) | SCHEDULED Sun 2026-11-29 10:00 AM ET |
 | Ep. 001 Short 3 | "Don't build your house on it" (Mr G) | SCHEDULED Mon 2026-11-30 10:00 AM ET |
 
