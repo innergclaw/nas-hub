@@ -86,6 +86,26 @@
       ],
       "credit": "https://x.ai/bot/guides",
       "one_pager": "https://innergclaw.github.io/nas-hub/frequency-connectors/no-002-grok-bot-guides/assets/onepager_1080x1350.jpg"
+    },
+    {
+      "id": "frequency-connector-003-one-job-per-bot",
+      "name": "Frequency Connector No. 003: One Job Per Bot",
+      "type": "guide+skill",
+      "price_usd": 0,
+      "page": "https://innergclaw.github.io/nas-hub/frequency-connectors/no-003-one-job-per-bot/",
+      "skill_zip": "https://innergclaw.github.io/nas-hub/frequency-connectors/no-003-one-job-per-bot/innerg-frequency-connector-003-one-job-per-bot.zip",
+      "skill_md": "https://innergclaw.github.io/nas-hub/frequency-connectors/no-003-one-job-per-bot/SKILL.md",
+      "description": "Run Grok Bots like a small company: one job per bot, with a manager bot in charge. Free guide, one-pager and a free skill for agents.",
+      "requires": [
+        "Claude, Grok, ChatGPT or another agent that accepts custom instructions"
+      ],
+      "delivers": [
+        "Guide page",
+        "SKILL.md",
+        "skill zip"
+      ],
+      "credit": "https://x.com/elonmusk/status/2126413886576590925",
+      "one_pager": "https://innergclaw.github.io/nas-hub/frequency-connectors/no-003-one-job-per-bot/assets/onepager_1080x1350.jpg"
     }
   ],
   "install_skill": {
